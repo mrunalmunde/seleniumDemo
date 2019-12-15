@@ -12,7 +12,9 @@ public class FacebookSynchronizeTest
 {
 
 	public static void main(String[] args) 
+	
 	{
+		System.out.println("Enter user name");
 		System.setProperty("webdriver.chrome.driver", "F:\\11092019\\chrome_78\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
